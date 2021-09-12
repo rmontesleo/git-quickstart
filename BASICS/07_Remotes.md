@@ -5,7 +5,7 @@
 ssh-keygen
 ```
 
-### type the path where save the key and a mykey.pub file will be created
+### type the path where save the key and a name in this sample the name is mykey, and a file called mykey.pub  will be created
 ```
 /home/user/.ssh/mykey
 ```
