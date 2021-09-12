@@ -1,11 +1,6 @@
 # Basic Setup
 
 
-### first check you get git in your system
-```
-git --version
-```
-
 ### See the configurations of git. To out of the list press the letter q  (of quit)
 ```
 git config --list

@@ -27,7 +27,7 @@ hint: (e.g. , 'git pull ...') before pushing again.
 
 ### first pull from GitHub, but you see some aditional messages
 ```
-git pull
+git pull origin main
 ```
 
 ```

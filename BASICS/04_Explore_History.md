@@ -13,10 +13,16 @@ git log --oneline
 ```
 
 
-### See all the differences with diff
+### See all the differences and all files with diff
 ```
 git diff
 ```
+
+### See just differences on README.md
+```
+git diff README.md
+```
+
 
 ### see the differences between HEAD and two commits ago.
 ### if you add lines you see the + sing in green color

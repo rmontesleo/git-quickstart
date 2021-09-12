@@ -46,6 +46,19 @@ vim README.md
 git status
 ```
 
+### send the changes to the stage
+### the .  is a shortcut to say , send to stage all changes in this folder
+```
+git add .
+```
+
+### Check againt the status
+```
+git status
+```
+
+
+
 ### Add specifics comments about your commit with flag -m
 ```
 git commit -m "Add content to our README.md file"
