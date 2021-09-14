@@ -58,13 +58,50 @@ git log --oneline --graph --all
 
 ## Segment 3. Moving around different branches
 
+### returning to main. If you didnt commit your changes, git does not allow you to switch
+```
+git switch main
+```
+
+### check the content of main
+
+### check the logs in main
+```
+git log --oneline
+```
+
+### return to first branch
+```
+git swith my_first_branch
+```
+
+---
+
 ## Segment 4. Merging branches
+
+### Open your pull request
+```
+1) click on branch link
+2) new pull request
+```
+
+
+
+---
 
 ## Segment 5. Merging branches with remotes
 
+
+---
+
 ## Segment 6. Pull requests (aka merge requests)
 
+
+--
+
 ## Segment 7. Syncing up with your remote
+
+--
 
 ## Segment 8. Multiple branches
 
@@ -77,3 +114,4 @@ git log --oneline --graph --all
 ## Segment 10. Discuss how the skills you learned directly apply to collaboration with other people
 
 
+---
