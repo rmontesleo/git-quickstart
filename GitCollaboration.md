@@ -39,10 +39,15 @@ git checkout my_first_branch
 ```
 git log --oneline
 ```
-
 ---
 
 ## Segment 2. Making commits in branches
+
+### Type some changes in your files and the, execute the git flow to commit
+```
+git add .
+git commit -m "udpating files, but this time in branch"
+```
 
 ## Segment 3. Moving around different branches
 
