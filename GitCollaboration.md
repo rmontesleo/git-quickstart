@@ -80,11 +80,15 @@ git swith my_first_branch
 ## Segment 4. Merging branches
 
 ### Open your pull request
-```
-1) click on branch link
-2) new pull request
-```
 
+1 - click on branch link
+2 - you see all branches. Select the branch you want to do the pull request
+3 - press the button `New pull request` of selected branch.
+4 - Select the branch target and the branch to merge
+5 - add title and description of your pull request
+6 - review the differences. 
+7 - verify the changes, review the code and avoid to put passwords or sensible data.
+8 - click on button `Create pull request`
 
 
 ---
@@ -92,6 +96,13 @@ git swith my_first_branch
 ## Segment 5. Merging branches with remotes
 
 
+### review the pull request. Start your **Code Review**
+1 - reviw the changes and the request.
+2 - you can see the commits in the pull request
+3 - add comments in the points that are required
+4 - if everything is OK, add a coments and accept the pull request
+5 - add more comments.
+6 - if it is not required, delete the branch.
 ---
 
 ## Segment 6. Pull requests (aka merge requests)
