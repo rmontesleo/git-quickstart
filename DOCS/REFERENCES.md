@@ -1,5 +1,9 @@
 # References
 
+## About licenses
+
+- [Choose an open source license](https://choosealicense.com)
+
 
 ## YouTube
 
@@ -9,7 +13,9 @@
 
 - [Pelado Nerd: Tutorial de GIT - Parte 2 / Arreglando tus errores con la linea de comandos y usando Github.com](https://www.youtube.com/watch?v=7-JHoPyJy-Q)
 
--[Fazt: Git and Github | Practical Course from Scratch](https://www.youtube.com/watch?v=HiXLkL42tMU)
+- [Fazt: Git and Github | Practical Course from Scratch](https://www.youtube.com/watch?v=HiXLkL42tMU)
+
+- [AmigosCode: Git and GitHub Tutorial For Beginners | Full Course [2021] [NEW]](https://www.youtube.com/watch?v=3fUbBnN_H2c)
 
 
 
@@ -21,4 +27,6 @@
 
 
 ## LiveLessons
-- [Git Essentials LiveLessons](https://learning.oreilly.com/videos/git-essentials-livelessons/9780134655284/)
+- [Git Essentials](https://learning.oreilly.com/videos/git-essentials-livelessons/9780134655284/)
+
+- [Git Collaboration](https://learning.oreilly.com/live-events/git-collaboration/0636920334460/0636920058494/)

@@ -37,5 +37,11 @@
 - `git push origin main`: push to the main branch to the origin remote
 - `git pull origin main`: pull to the main branch from the origin remote
     
-    
-### A new line from GitHub
+## Collaboration
+
+- `git clone <URL>` : Clones/downloads the repo to your computer
+
+- `git branc <NAME>` : creates a brnach called <NAME> where your are (HEAD)
+
+- `git switch <NAME>`: move to the branch <NAME>
+    - `git checkout <NAME>`: The "older" way to swtich branches
