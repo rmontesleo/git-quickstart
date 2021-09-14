@@ -29,6 +29,16 @@ git log --oneline
 git switch my_first_branch
 ```
 
+### in some previous versions of git you have to use checkout to switch of branch
+```
+git checkout my_first_branch
+```
+
+
+### check what happened
+```
+git log --oneline
+```
 
 ---
 
