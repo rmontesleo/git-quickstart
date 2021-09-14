@@ -49,6 +49,13 @@ git add .
 git commit -m "udpating files, but this time in branch"
 ```
 
+### check 
+```
+git log --oneline --graph --all
+```
+
+---
+
 ## Segment 3. Moving around different branches
 
 ## Segment 4. Merging branches
