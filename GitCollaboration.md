@@ -118,6 +118,16 @@ git switch main
 git branch -a
 ```
 
+### we see something like
+```
+ main
+  my_first_branch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/my_first_branch
+```
+
+
 
 --
 
