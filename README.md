@@ -37,5 +37,6 @@
 - `git push origin main`: push to the main branch to the origin remote
 - `git pull origin main`: pull to the main branch from the origin remote
     
-    
-### A new line from GitHub
+## Collaboration
+
+- `git clone <URL>` : Clones/downloads the repo to your computer

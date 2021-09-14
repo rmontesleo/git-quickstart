@@ -1,0 +1,57 @@
+# Collaboration
+
+## Setup you environment
+
+### Create a git project on GitHub
+```
+```
+
+### Create a local folder and clone your repository
+```
+```
+
+---
+
+## Segment 1. Creating branches
+
+### Create a new branch
+```
+git branch my_first_branch
+```
+
+### Check you have the new branch
+```
+git log --oneline
+```
+
+### Switch to the new branch
+```
+git switch my_first_branch
+```
+
+
+---
+
+## Segment 2. Making commits in branches
+
+## Segment 3. Moving around different branches
+
+## Segment 4. Merging branches
+
+## Segment 5. Merging branches with remotes
+
+## Segment 6. Pull requests (aka merge requests)
+
+## Segment 7. Syncing up with your remote
+
+## Segment 8. Multiple branches
+
+---
+
+## Segment 9. Incorporating hot fixes
+
+---
+
+## Segment 10. Discuss how the skills you learned directly apply to collaboration with other people
+
+
