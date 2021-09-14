@@ -93,8 +93,7 @@ git swith my_first_branch
 
 ---
 
-## Segment 5. Merging branches with remotes
-
+## Segment 5. Merging branches with remotes and Segment 6. Pull requests (aka merge requests)
 
 ### review the pull request. Start your **Code Review**
 1 - reviw the changes and the request.
@@ -105,12 +104,20 @@ git swith my_first_branch
 6 - if it is not required, delete the branch.
 ---
 
-## Segment 6. Pull requests (aka merge requests)
-
-
 --
 
 ## Segment 7. Syncing up with your remote
+
+### switch back to main
+```
+git switch main
+```
+
+### check the branches
+```
+git branch -a
+```
+
 
 --
 
