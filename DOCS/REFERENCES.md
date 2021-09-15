@@ -21,6 +21,8 @@
 
 ## Online
 
+- [GUI Clients](https://git-scm.com/downloads/guis)
+
 - [Gitflow Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
 - [Setup you editor](https://swcarpentry.github.io/git-novice/02-setup/index.html)
