@@ -145,7 +145,7 @@ git fetch --prune
 git log --oneline
 ```
 
-### try to delete the branch
+### Now we delete the branch
 ```
 git branch -d my_first_branch
 ```
@@ -161,6 +161,14 @@ git branch -a
   remotes/origin/HEAD -> origin/main
   remotes/origin/main
 ```
+
+
+### check again the log
+```
+git log --oneline
+```
+
+
 ---
 
 ## Segment 8. Multiple branches
@@ -168,29 +176,201 @@ git branch -a
 
 ### swtich and create a new branch
 ```
-git switch -c stash
+git switch -c my-first-stash
 ```
 
 ### create a new branch with checkout
 ```
-git checkout -b stash2
+git checkout -b my-second-stash
 ```
 
-
-### delete some branch with checkout
+### cchek status again and check the branches
 ```
-git checkout -d stash2
+git status 
 ```
 
+### save your changes in main, make a commit and then switch to my-first-stash
 
+### in my-first-stash make some changes  in some file... then try to swith to main
+```
+vim README.md
+```
+
+### try to swit to main
+```
+git switch main
+```
+
+### use stash to create a temp commit and switch of branch
+```
+git stash
+```
+
+### check log with graph 
+```
+git log --oneline --graph --all
+```
+
+### move to main
+```
+git switch main
+```
+
+### return to my-first-stash
+```
+git switch my-first-stash
+```
+
+### list get back the temporal commit
+```
+git stash list
+```
+
+### if you dont require any more the changes in stash you clear it
+```
+git stash clear
+```
+
+### now , we are goint to synchronize the code
+### push the changes of main
+```
+git push origin main
+```
+
+### rename a branch
+```
+git branch -m my-first-stash mfs
+```
+
+### check the changes of rename the branch
+```
+git branch -a
+```
+
+### swithc to mfs and push the changes
+```
+git switch mfs
+git push origin mfs
+```
+
+### execute you pull request to merge changes
 
 ---
 
 ## Segment 9. Incorporating hot fixes
 
+### switch to mfs
+```
+git switch mfs
+```
+
+###  Next scenario.  Rebase
+```
+git fetch --prune
+```
+
+### check log with graph 
+```
+git log --oneline --graph --all
+```
+
+### switch again to main
+```
+git switch main
+```
+
+### update the main
+```
+git pull origin main
+```
+
+### switch to stash
+```
+git switch mfs
+```
+
+### execute the rebase
+```
+git rebase main
+```
+
+### now fix the problems in local
+
+### check the status and see the options to fix the rebase or return to previous state
+```
+git status
+```
+
+### if everything is ok continue
+```
+git add .
+git commit -m "solving issues"
+git rebase --continue
+git log --oneline --graph --all
+```
+
+### push the changes, to force update
+```
+git push origin mfs
+```
+
+### the make your pull request, then remove the remote mfs branch to make then a fetch
+```
+git fech --prune
+git log --onelline --graph --all
+```
+
+### check the limit of each git file , in 2021 is 100MB
+### check how to deploy and fix now in cloud
+
+### check log history
+```
+git log --oneline  --graph --all
+```
+
+### Check about cherry pics
+
 ---
 
 ## Segment 10. Discuss how the skills you learned directly apply to collaboration with other people
+
+
+1 - Go to settings
+1 - Manage access
+1 - invite collaborator
+1 - got to settings again
+1 - select Branches
+1 - addd proteccion rules
+1 - select the options your collaboratos can interact
+
+
+### add changes to your file
+```
+vim README.md
+```
+
+### try to push your changes
+### but you will be locked. Now the main branch is protected
+```
+git add .
+git commit -m "some changes"
+git push origin main
+```
+
+### create a new branch and see the log
+```
+git switch  -c my_rebase
+
+git log --oneline --graph --all
+```
+
+### remove all changes from current and sent to the required location
+```
+git reset --hard <LOCATION_BRANCH_ID>
+```
+
+### talkign about git flow
+
 
 
 ---

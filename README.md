@@ -48,3 +48,9 @@
     - `git switch -c <NAME>` : Create and move to the branch <NAME>
     - `git checkout -b <NAME>` : also create and move to the branch  <NAME>
 
+- `git stash` : will create a temp commit, that allow us switch to other branch
+    - `git stash list` : show you the temp commits that are stashed
+    - `git stash apply` : apply the last stash (pop)
+    - `git stash clear`: remove all your stashes.
+
+- `git rebase -b <BRANCH>`: Change the history and update current branch with <BRANCH>
