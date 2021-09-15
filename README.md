@@ -45,3 +45,6 @@
 
 - `git switch <NAME>`: move to the branch <NAME>
     - `git checkout <NAME>`: The "older" way to swtich branches
+    - `git switch -c <NAME>` : Create and move to the branch <NAME>
+    - `git checkout -b <NAME>` : also create and move to the branch  <NAME>
+
