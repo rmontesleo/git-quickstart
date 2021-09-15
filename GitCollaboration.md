@@ -127,11 +127,62 @@ git branch -a
   remotes/origin/my_first_branch
 ```
 
+### update the info from the origin in GitHub
+```
+git fetch --prune
+```
 
+### now you see the fremote branch is deleted and also delete on you computer
+```
+* main
+  my_first_branch
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+```
 
---
+### also check no more refernces with git logg --oneline
+```
+git log --oneline
+```
+
+### try to delete the branch
+```
+git branch -d my_first_branch
+```
+
+### check the branches
+```
+git branch -a
+```
+
+### check again the brances you see
+```
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+```
+---
 
 ## Segment 8. Multiple branches
+
+
+### swtich and create a new branch
+```
+git switch -c stash
+```
+
+### create a new branch with checkout
+```
+git checkout -b stash2
+```
+
+
+### delete some branch with checkout
+```
+git checkout -d stash2
+```
+
+
 
 ---
 
