@@ -12,8 +12,13 @@
 
 ## GitHub
 
+- [Search on GitHub](https://github.com/search)
+
 - [Searching for information on GitHub](https://docs.github.com/en/github/searching-for-information-on-github)
-- [Search on GitHub](https://github.com/search) 
+ 
+- [GitHub Actions](https://docs.github.com/en/actions)
+
+- [Quickstart for GitHub Actions](https://docs.github.com/en/actions/quickstart)
 
 
 ## Trainings
