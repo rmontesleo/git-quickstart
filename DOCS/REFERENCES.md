@@ -4,6 +4,23 @@
 
 - [Choose an open source license](https://choosealicense.com)
 
+- [Understanding open-source and free software licensing](https://moqod-software.medium.com/understanding-open-source-and-free-software-licensing-c0fa600106c9)
+
+
+- [What if I want to change the license of my project?](https://opensource.guide/legal/#what-if-i-want-to-change-the-license-of-my-project)
+
+
+## GitHub
+
+- [Searching for information on GitHub](https://docs.github.com/en/github/searching-for-information-on-github)
+- [Search on GitHub](https://github.com/search) 
+
+
+## Trainings
+
+- [Workshopt GitHub Fundamentals](https://github.com/ldynia/workshop-github-fundamentals)
+
+
 
 ## YouTube
 
@@ -34,3 +51,8 @@
 - [Git Essentials](https://learning.oreilly.com/videos/git-essentials-livelessons/9780134655284/)
 
 - [Git Collaboration](https://learning.oreilly.com/live-events/git-collaboration/0636920334460/0636920058494/)
+
+
+## Interactive scenarios
+
+- [Ubuntu Sandbox (20.04)](https://learning.oreilly.com/scenarios/ubuntu-sandbox/9781492062837/)
